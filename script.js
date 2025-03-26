@@ -22,7 +22,7 @@ function RenderLocalStorageData() {
                                <input type="text" class="EditInput">
                                <button class="EditDone" onclick="EditDone(this)">Done</button>
                              </div>
-                             <p class="ListPara">${LocalStorageData[i]}</p>
+                             <p>${LocalStorageData[i]}</p>
                              <div class="btns">
                                <button class="Edit" onclick="EditTask(this)">Edit</button>
                                <button class="Delete" onclick="DeleteTask(this)">Delete</button>
